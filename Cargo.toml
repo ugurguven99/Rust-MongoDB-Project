@@ -1,0 +1,12 @@
+[package]
+name = "dbProject1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0.188"
+futures = "0.3.28"
+tokio = { version = "1.32.0", features = ["full"] }
+mongodb = "2.0"  # veya en güncel sürüm
+serde_json = "1.0"
+actix-web = "4"
